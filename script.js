@@ -137,7 +137,7 @@ function updatePriorityUI() {
 }
 
 function updateTime() {
-  if (todo.status === "Done") {
+  if (todo.status === "Completed") {
     timeRemaining.textContent = "Completed";
     return;
   }
